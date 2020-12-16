@@ -10,7 +10,7 @@ import java.util.List;
 public class FileTreasureDao implements TreasureDao {
     private static FileTreasureDao instance;
 
-    private static String fileLocation = "C:/Users/Владислав/IdeaProjects/" +
+    private static String fileLocation = "D:/IdeaProjects/" +
             "IntroductionToJava/Module05/src/by/epam/task4/resources/treasures.csv";
 
     private FileTreasureDao() {
